@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('Hello Pluto, how arrrrrrre youuuuuuuuu?');
 });
 
+app.get('/pluto', (req, res) => {
+  res.send('I want to eat popcorn');
+});
+
 app.listen(port, () => {
   return console.log(`Express is listening at http://localhost:${port}`);
 });
