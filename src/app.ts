@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello Pluto, I am Venus. how are youuuuu?');
+  res.send('Hello Plutooo, I am Venus. how are youuuuu?');
 });
 
 app.get('/pluto', (req, res) => {
